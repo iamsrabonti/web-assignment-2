@@ -1,0 +1,197 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero-title,
+.section-title {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background: #ffffff;
+}
+
+.hero-title {
+  font-size: 80px;
+}
+
+.buy-btn {
+  width: 170px;
+  height: 60px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
+  color: white;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  flex-shrink: 0;
+}
+
+.buy-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(164, 188, 70, 0.28);
+}
+
+.section-title {
+  font-size: 48px;
+  line-height: 1.1;
+  color: #363958;
+}
+
+.product-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.product-image-wrap {
+  background: #f1f1f1;
+  border-radius: 20px;
+  padding: 18px 12px;
+}
+
+.product-image {
+  width: 100%;
+  height: 293px;
+  object-fit: contain;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #363958;
+  margin-top: 18px;
+}
+
+.product-desc {
+  font-size: 16px;
+  color: #3e3e3e;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.price {
+  color: #fabe4c;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.facility-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.facility-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #363958;
+  margin-bottom: 6px;
+}
+
+.facility-desc {
+  font-size: 16px;
+  color: #3e3e3e;
+  line-height: 1.6;
+}
+
+@media (min-width: 1024px) {
+  .price {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-logo {
+    width: 165px;
+  }
+
+  .hero-title {
+    font-size: 54px;
+    line-height: 0.92;
+  }
+
+  .hero-model {
+    max-width: 260px;
+  }
+
+  .section-title {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .buy-btn {
+    width: 145px;
+    height: 50px;
+    font-size: 13px;
+    border-radius: 8px;
+  }
+
+  .product-card {
+    padding: 12px;
+    border-radius: 16px;
+  }
+
+  .product-image-wrap {
+    padding: 14px 10px;
+    border-radius: 14px;
+  }
+
+  .product-image {
+    height: 220px;
+  }
+
+  .product-title {
+    font-size: 20px;
+    margin-top: 12px;
+  }
+
+  .product-desc {
+    font-size: 14px;
+    line-height: 1.45;
+    margin-top: 8px;
+  }
+
+  .price {
+    font-size: 30px;
+  }
+
+  .facility-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 18px;
+  }
+
+  .facility-title {
+    font-size: 22px;
+  }
+
+  .facility-desc {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
